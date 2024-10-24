@@ -134,7 +134,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="checkbox" name="lanches[]" value="X-Murilo" checked> X-Murilo</td>
+                        <td><input type="checkbox" name="lanches[]" value="X-Murilo" > X-Murilo</td>
                         <td>
                             <select name="quantidade_x_murilo">
                                 <option value="0">0</option>
@@ -186,7 +186,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="checkbox" name="bebidas[]" value="Suco de Laranja" checked> Suco de Laranja
+                        <td><input type="checkbox" name="bebidas[]" value="Suco de Laranja" > Suco de Laranja
                         </td>
                         <td>
                             <select name="quantidade_suco_laranja">
@@ -238,7 +238,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="checkbox" name="porcoes[]" value="Batata Frita" checked> Batata Frita</td>
+                        <td><input type="checkbox" name="porcoes[]" value="Batata Frita" > Batata Frita</td>
                         <td>
                             <select name="quantidade_batata_frita">
                                 <option value="0">0</option>
@@ -289,7 +289,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="checkbox" name="doces[]" value="Bala de Cocô" checked> Bala de Cocô</td>
+                        <td><input type="checkbox" name="doces[]" value="Bala de Cocô" > Bala de Cocô</td>
                         <td>
                             <select name="quantidade_bala_coco">
                                 <option value="0">0</option>
@@ -331,6 +331,17 @@
         <input type="submit" value="Enviar Pedido">
     </form>
 
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+    
 </body>
 
 </html>
